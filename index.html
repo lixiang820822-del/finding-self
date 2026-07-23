@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>寻找自我 — 懂你身体和情绪的私人心理镜子</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0A1628;
+    color: #F0E0C8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    line-height: 1.8;
+    min-height: 100vh;
+  }
+  .container { max-width: 720px; margin: 0 auto; padding: 60px 24px 80px; }
+
+  .hero { text-align: center; margin-bottom: 56px; }
+  .hero .icon { font-size: 64px; margin-bottom: 16px; }
+  .hero h1 { font-size: 36px; font-weight: 700; letter-spacing: 4px; margin-bottom: 12px; }
+  .hero .tagline { font-size: 18px; color: #C8B89A; opacity: 0.8; }
+
+  .section { margin-bottom: 48px; }
+  .section h2 { font-size: 22px; color: #4ECDC4; margin-bottom: 16px; font-weight: 600; }
+  .section p, .section li { font-size: 15px; color: #D4C8B0; }
+
+  .features { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .feature-card {
+    background: rgba(240,224,200,0.05);
+    border: 1px solid rgba(240,224,200,0.08);
+    border-radius: 12px; padding: 20px;
+  }
+  .feature-card .emoji { font-size: 28px; margin-bottom: 8px; }
+  .feature-card h3 { font-size: 16px; margin-bottom: 6px; }
+  .feature-card p { font-size: 13px; color: #A89A80; }
+
+  .privacy li { margin-bottom: 8px; padding-left: 8px; }
+
+  .contact {
+    text-align: center; padding: 40px 20px;
+    background: rgba(240,224,200,0.04); border-radius: 12px;
+    border: 1px solid rgba(240,224,200,0.06);
+  }
+  .contact a { color: #4ECDC4; text-decoration: none; }
+
+  footer {
+    text-align: center; color: #6B5E50; font-size: 12px;
+    margin-top: 60px; padding-top: 20px;
+    border-top: 1px solid rgba(240,224,200,0.06);
+  }
+
+  @media (max-width: 520px) {
+    .features { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="hero">
+    <div class="icon">🪞</div>
+    <h1>寻找自我</h1>
+    <p class="tagline">懂你身体和情绪的私人心理镜子 — 不诊断，只陪你看见自己</p>
+  </div>
+
+  <!-- 功能简介 -->
+  <div class="section">
+    <h2>✨ 核心功能</h2>
+    <div class="features">
+      <div class="feature-card">
+        <div class="emoji">📔</div>
+        <h3>情绪日记</h3>
+        <p>自由记录每日感受，AI 以共情方式回应，帮助你理清情绪背后的故事</p>
+      </div>
+      <div class="feature-card">
+        <div class="emoji">🧘</div>
+        <h3>身体扫描</h3>
+        <p>逐部位感知身体信号，让说不清的不舒服变成具体可感的位置</p>
+      </div>
+      <div class="feature-card">
+        <div class="emoji">🫀</div>
+        <h3>身体地图</h3>
+        <p>在人体轮廓上标注不适位置，长期追踪身体信号的变化模式</p>
+      </div>
+      <div class="feature-card">
+        <div class="emoji">🧪</div>
+        <h3>行为实验</h3>
+        <p>设计小测试验证自己的想法，用真实体验替代自我怀疑</p>
+      </div>
+      <div class="feature-card">
+        <div class="emoji">🪞</div>
+        <h3>周期报告</h3>
+        <p>每周/每月回顾身体和情绪的变化趋势，发现属于你的节律模式</p>
+      </div>
+      <div class="feature-card">
+        <div class="emoji">💬</div>
+        <h3>AI 对话</h3>
+        <p>三位心理学大师（Rogers / Beck / Van der Kolk）设计的陪伴式对话</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 隐私政策 -->
+  <div class="section">
+    <h2>🔒 隐私政策</h2>
+    <p style="margin-bottom:12px;">更新日期：2026 年 7 月 23 日</p>
+    <ol class="privacy">
+      <li><strong>数据存于本地。</strong> 所有情绪记录、日记、身体地图标注仅存储在您的设备上，我们不收集、不上传任何个人信息至云端服务器。</li>
+      <li><strong>不收集个人身份信息。</strong> 本应用不需要提供真实姓名、身份证号、地理位置等个人身份信息。</li>
+      <li><strong>健康数据仅用于个人查看。</strong> 通过华为 Health Kit 获取的心率、睡眠等数据仅用于在您的设备上生成个人健康报告，不向任何第三方分享。</li>
+      <li><strong>AI 分析匿名化。</strong> 当您使用 AI 对话功能时，仅发送脱敏的统计数字摘要，不发送日记原文或个人身份信息。对话内容不会用于模型训练。</li>
+      <li><strong>危机检测本地化。</strong> 自杀、自残等关键词检测完全在设备端运行，不上传云端。</li>
+      <li><strong>登录信息。</strong> 微信/华为账号/手机号登录仅用于身份认证，认证后的用户标识仅存储在您的设备本地 Preferences 中。</li>
+      <li><strong>数据删除。</strong> 您可以随时在应用设置中退出登录并清除所有本地数据。卸载应用即永久删除所有数据。</li>
+      <li><strong>非医疗建议。</strong> 本应用不诊断、不开药、不替代专业心理治疗。</li>
+    </ol>
+  </div>
+
+  <!-- 联系方式 -->
+  <div class="contact">
+    <p style="font-size:18px;">📧 联系我们</p>
+    <p style="margin-top:8px; color:#A89A80;">
+      如有任何问题或建议，请发邮件至<br>
+      <a href="mailto:lixiang820822@qq.com" style="font-size:16px;">lixiang820822@qq.com</a>
+    </p>
+  </div>
+
+  <!-- 底部 -->
+  <footer>
+    © 2026 寻找自我 · 懂你身体和情绪的私人心理镜子<br>
+    本应用不诊断、不替代专业医疗
+  </footer>
+
+</div>
+</body>
+</html>
